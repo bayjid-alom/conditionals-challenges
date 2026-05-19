@@ -10,3 +10,26 @@ write a simple if-else.
 also, write it using ternary operator.
 
  */
+
+// Program Below:
+
+let num1 = 30;
+let num2 = 20;
+let result = null;
+
+if (num1 > num2) {
+    result = num1 * 2
+    console.log(result)
+}
+else {
+    result = num1 + num2;
+    console.log(result)
+}
+
+// Ternary
+
+let num3 = 20;
+let num4 = 30;
+let result_2 = null;
+console.log(num3 > num4 ? num3 * 2 : num3 + num4)
+
